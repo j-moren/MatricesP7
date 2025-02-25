@@ -1,5 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
+import javax.sound.sampled.SourceDataLine;
 
 public class Metodos {
 
@@ -52,5 +53,9 @@ public class Metodos {
                 }
             }
         }
+    System.out.println("Cantidad de ceros: " + ceros);
+    System.out.println("Cantidad de números positivos: " + positivos);
+    System.out.println("Cantidad de números negativos: " + negativos);
     }
+    
 }
