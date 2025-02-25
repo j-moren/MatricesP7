@@ -36,4 +36,21 @@ public class Metodos {
             System.out.println();// Nueva línea después de cada fila
         }
     }
+    public void contarElementos (int[][] matriz) {
+        int ceros = 0;
+        int positivos = 0;
+        int negativos = 0;
+
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                if (matriz[i][j] == 0) {
+                    ceros++;
+                } else if (matriz[i][j] > 0) {
+                    positivos++;
+                } else {
+                    negativos++;
+                }
+            }
+        }
+    }
 }
